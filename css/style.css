@@ -1,0 +1,839 @@
+/* font-family: 'Open Sans',
+sans-serif;
+font-family: 'Raleway',
+sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/**********************
+   header section css
+************************/
+header {
+    background: #000;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.nav-item {
+    margin-left: 16px;
+}
+
+/**********************
+   banner section css
+************************/
+
+.banner {
+    width: 100%;
+    background-image: url(../img/banner\ img\ 01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.banner-contact,
+.banner-form {
+    height: 96vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contact-title {
+    font-size: 86px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact-title span {
+    color: #ff8b38;
+    font-weight: 300;
+}
+
+.banner-contact h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 35px;
+    width: 516px;
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+.banner-contact .line {
+    height: 2px;
+    width: 75px;
+    background: #fff;
+    margin: 35px 0px;
+}
+
+.banner-contact p {
+    color: #909090;
+    width: 71%;
+    font-family: 'Raleway',
+        sans-serif;
+    margin-bottom: 35px;
+}
+
+.contact-btn {
+    padding: 16px 42px;
+    background: transparent;
+    border: 1px solid white;
+    color: #ffff;
+    font-family: 'Open Sans',
+        sans-serif;
+    transition: all .4s;
+}
+
+.contact-btn:hover {
+    background-color: #ffff;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+
+.banner-form h2 {
+    color: #333333;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 0px;
+}
+
+.banner-form h2 span {
+    color: #ff8b38;
+}
+
+.banner-form .card-header {
+    background: #f5f5f5;
+    text-align: center;
+
+}
+
+.banner-form .form-control {
+
+    border: none;
+
+    outline: none;
+
+    border-bottom: 1px solid #3333;
+
+    margin-bottom: 35px;
+}
+
+.banner-form .form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.banner-form .card {
+    width: 360px;
+}
+
+.banner-form .card-body {
+    padding: 32px;
+}
+
+.last {
+    margin-bottom: 20px !important;
+}
+
+.banner-form .submit-btn {
+    width: 100%;
+    padding: 16px;
+    background: #ff8b38;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-form .submit-btn:hover {
+    background: #eb8e4b;
+}
+
+.banner-form .card-footer {
+    padding: 0px;
+    background: #ff8b38;
+}
+
+/**********************
+   social section css
+************************/
+
+.social-text {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.social-text h2 {
+
+    padding-top: 18px;
+
+    font-size: 25px;
+
+    font-weight: 600;
+
+    margin-bottom: 3px;
+}
+
+.social-text p {
+
+    font-size: 13px;
+
+    color: #909090;
+}
+
+.social-icon {
+
+    text-align: right;
+}
+
+.social-icon i {
+
+    font-size: 45px;
+
+    margin-left: 70px;
+
+    padding-top: 28px;
+
+    color: #9c9b9b;
+    transition: all 1s;
+}
+
+.social-icon i:hover {
+    color: #ff8b38;
+
+
+}
+
+/**********************
+   features section css
+************************/
+.features {
+    width: 100%;
+    padding: 80px 0px;
+    background: #f5f5f5;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.features-tab .tab {
+
+    list-style: none;
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    background: #333333;
+
+    color: white;
+
+    margin-bottom: 1px;
+
+    width: 120px;
+
+    height: 120px;
+
+    text-align: center;
+
+    line-height: 120px;
+
+    margin-left: -30px;
+
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.current {
+    background: #ff8b38 !important;
+}
+
+
+.features-con h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 56px;
+}
+
+.features-con p {
+    font-size: 14px;
+    color: #909090;
+    width: 525px;
+    letter-spacing: 1p;
+}
+
+.features-btn {
+    background: #ff8b38;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    margin-top: 30px;
+    transition: all .1s;
+}
+
+.features-btn:hover {
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+
+.features-con {
+    margin-left: 26px;
+}
+
+.features-img {
+    width: 416px;
+    margin-top: 22px;
+}
+
+.features-img img {
+    width: 100%;
+}
+
+/**********************
+   sub-list section css
+************************/
+
+.sub-list {
+
+    width: 100%;
+    padding: 80px 0px;
+
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.sub-img {
+    width: 580px;
+    margin-left: -40px;
+}
+
+.sub-img img {
+    width: 100%;
+}
+
+.sub-contant {}
+
+.Scontant-top h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Scontant-top p {
+
+    font-size: 15px;
+
+    color: #909090;
+
+    margin-bottom: 35px;
+
+}
+
+.title-div h4 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+
+.title-div p {
+    color: #909090;
+    font-size: 16px;
+}
+
+.sub-line {
+    width: 70px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 25px 0px;
+}
+
+
+
+.subtitle-one i {
+    color: tomato;
+    /* background: tomato; */
+    /* padding: 14px; */
+    border-radius: 50%;
+    border: 2px solid tomato;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 42px;
+    margin-right: 41px;
+}
+
+.subtitle-two i {
+    color: tomato;
+    /* background: tomato; */
+    /* padding: 14px; */
+    border-radius: 50%;
+    border: 2px solid tomato;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 42px;
+    margin-right: 41px;
+}
+
+.subtitle-two {
+    display: flex;
+}
+
+/******************************
+ standard-picture section css
+*******************************/
+
+.standard-picture {
+
+    width: 100%;
+
+    margin: 80px 0px;
+
+    background: #f5f5f5;
+}
+
+.standard-contant {
+    margin-top: 80px;
+    margin-bottom: 175px;
+}
+
+.standard-contant h2 {}
+
+.standard-contant p {
+    width: 651px;
+    color: #86878b;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.standard-img {
+    width: 580px;
+    margin-top: 65px;
+    margin-left: 95px;
+    margin-bottom: 50px;
+}
+
+.standard-img img {
+    width: 100%;
+}
+
+/******************************
+ AWESOME-picture section css
+*******************************/
+.AWESOME-section {}
+
+.WHY-AWESOME {
+    text-align: center;
+    width: 100%;
+    padding: 120px;
+}
+
+.why {
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+
+.WHY-AWESOME h2 {
+    font-family: 'Raleway',
+        sans-serif;
+
+}
+
+.WHY-AWESOME p {
+    font-family: 'Open Sans',
+        sans-serif;
+    color: #86878b;
+    font-size: 16px;
+}
+
+.option1 {
+
+    text-align: center;
+
+    margin-bottom: 85px;
+}
+
+.option1 span {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+}
+
+.subtitle-one {
+    display: flex;
+}
+
+.title-div {
+    width: 520px;
+}
+
+.option1 span img {}
+
+.option1 h2 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 600;
+    color: black;
+    margin: 30px 0px;
+
+}
+
+.option1 p {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 500;
+    color: #aaa;
+}
+
+
+/******************************
+     pricing section css
+*******************************/
+
+section.pricing {
+    background: #f5f5f5;
+}
+
+.table-1 {
+    text-align: center;
+    background: white;
+    box-shadow: 2px 7px 25px -5px grey;
+}
+
+.t-header {
+    background: #333333;
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+}
+
+.t-header h2 {
+    color: white;
+    /* margin: 0px; */
+}
+
+.t-body {
+
+    background: #333333;
+
+    color: white;
+
+    padding: 20px 0px;
+    border-bottom: 5px solid #ff8b38;
+}
+
+.t-body h3 {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.t-body span {
+
+    font-size: 95px;
+
+    font-family: 'Raleway';
+}
+
+.t-body p {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: gray;
+    margin-top: 15px;
+    /* margin-top: 36px; */
+}
+
+.t-footer {
+    margin-bottom: 100px;
+}
+
+.t-footer ul {
+
+    background: white;
+
+    list-style: none;
+
+    margin: 0px;
+
+    padding: 0px;
+}
+
+.t-footer ul li {
+    border-bottom: 1px solid #ebebeb;
+    line-height: 40px;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.middle .t-body {
+    border-bottom: 0px;
+}
+
+.t-body-popular {
+    background-color: #ff8b38;
+}
+
+.t-body-popular p {
+    margin-bottom: -20px;
+    margin-top: 32px;
+    padding: 10px;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.row.y-table {
+    align-items: flex-end;
+}
+
+
+/******************************
+     CUSTOMERS section css
+*******************************/
+.comment {
+    margin-bottom: 40px;
+}
+
+.messeg p {
+    color: #86878b;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.messeg {
+    background: #f5f5f5;
+    width: 324px;
+    position: relative;
+}
+
+.msg-icon {
+
+    height: 30px;
+
+    width: 30px;
+
+    background: #f5f5f5;
+
+    transform: rotate(45deg);
+
+    position: absolute;
+
+    bottom: -16px;
+
+    left: 29px;
+}
+
+.user.details {
+    margin-top: 41px;
+    margin-left: 6px;
+    margin-right: 35px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.extcus {
+
+    margin-top: -35px;
+}
+
+.user.details h5 {
+    font-weight: 600;
+}
+
+/******************************
+     STYLISH section css
+*******************************/
+.STYLISH {
+    background: url(../img/coustom\ panel.png ) center top no-repeat;
+    background-size: cover;
+    margin: 100px 0px;
+}
+
+.STYLISH h2 {
+    color: white;
+}
+
+/* .last {
+  background: #b6b6b6; 
+} */
+
+button.AXURE-btn {
+    padding: 13px 35px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    /* border: none; */
+    outline: none;
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+button.AXURE-btn:hover {
+    background: rgb(18, 179, 243);
+    color: black;
+    border: none;
+}
+
+/******************************
+     contact section css
+*******************************/
+
+.contact-form {
+    width: 100%;
+    /* margin: 100px 0px; */
+    margin-bottom: 100px;
+    margin-top: -30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #cbcbcb;
+    outline: none;
+}
+
+input[type="email"] {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 10px 0px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #cbcbcb;
+    outline: none;
+}
+
+input[type="email"]::placeholder {
+    color: #cbcbcb;
+}
+
+input[type="text"]::placeholder {
+    color: #cbcbcb;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid #cbcbcb;
+    margin: 2px 0px;
+    outline: none;
+}
+
+
+
+.contact-form-left {
+    margin-right: 30px;
+}
+
+.contact-form-right {
+    margin-left: 30px;
+}
+
+textarea::placeholder {
+    color: #cbcbcb;
+}
+
+.contact-form-btn {
+
+    text-align: center;
+
+    margin-bottom: 100px;
+}
+
+.con-form-btn {
+
+    padding: 11px 32px;
+
+    font-family: 'Open Sans';
+
+    font-weight: 600;
+
+    font-size: 16px;
+
+    background: darkorange;
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 3px;
+
+    color: white;
+    transition: all .3s;
+    font-family: 'Open Sans';
+}
+
+.con-form-btn:hover {
+    background: transparent;
+    border: 2px solid #b1aaaa;
+    color: black;
+}
+
+.footer-sec {
+    background: black;
+}
+
+.footer-icon {
+
+    color: #cccccc;
+    text-align: center;
+}
+
+.footer-icon i {
+    font-size: 25px;
+    padding: 13px;
+    color: white;
+    transition: all .4s;
+}
+
+.footer-icon i:hover {
+    font-size: 30px;
+    padding: 13px;
+    width: 60px;
+    height: 60px;
+    background: grey;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+.footer-icon h6 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
